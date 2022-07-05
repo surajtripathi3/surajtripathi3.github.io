@@ -175,65 +175,68 @@
     </div> -->
     <div class="col-sm-11 p-0">
       <ol class="bibliography"><li><div class="row m-0 mt-3 p-0">
-  
-
-
 
         <div class="col-sm-1 p-0 abbr">
     
       
           <a class="badge font-weight-bold danger-color-dark darken-1 align-middle" style="width: 65px;" href="https://mia-workshop.github.io/" target="_blank">
-            MIA@22
+            DialDoc22
           </a>
         
       
     </div>
     <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
       
-      <div id="crosslingual-mia-22" class="col p-0">
-        <h5 class="title mb-0">Zero-shot cross-lingual open domain question answering</h5>
+      <div id="dialdoc-22" class="col p-0">
+        <h5 class="title mb-0">R3: Refined Retriever-Reader Pipeline for Multidoc2dial</h5>
         <div class="author">
           
             
               
                 
-                    <nobr><a href="https://www.linkedin.com/in/iamagarwalsumit/" target="_blank">Sumit Agarwal</a>,</nobr>
-                    <nobr><em>Suraj Tripathi<nobr></nobr></em>,</nobr>
-                    <nobr><a href="https://www.cs.cmu.edu/~teruko/" target="_blank">Teruko Mitamura</a>,</nobr>
-                and
-                
-                  
-                    <nobr><a href="https://www.cs.cmu.edu/~cprose/" target="_blank">Carolyn Rose</a>.</nobr>
-                  
-                
-              
+          <nobr><em>Suraj Tripathi<nobr><em>*</em></nobr></em>,</nobr>
+      
+          <nobr><a href="https://scholar.google.ca/citations?user=q-r7dUAAAAAJ&hl=en" target="_blank">Srijan Bansal*</a>,</nobr>
+
+          <nobr><a href="https://www.linkedin.com/in/iamagarwalsumit/" target="_blank">Sumit Agarwal*</a>,</nobr>
             
+          <nobr><a href="https://www.linkedin.com/in/sireesh-gururaja-aa629389/" target="_blank">Sireesh Gururaja*</a>,</nobr>
+
+          <nobr><a href="https://aditya-srikanth.github.io/" target="_blank">Aditya Srikanth Veerubhotla*</a>,</nobr>
+        
+          <nobr><a href="https://scholar.google.co.in/citations?user=iCZtiOsAAAAJ&hl=en" target="_blank">Ritam Dutt*</a>,</nobr>
+
+          <nobr><a href="https://www.cs.cmu.edu/~teruko/" target="_blank">Teruko Mitamura</a>,</nobr>
           
+      and
+      
+          <nobr><a href="https://www.cs.cmu.edu/~ehn/" target="_blank">Eric Nyberg</a>.</nobr>
+
         </div>
   
         <div>
           <p class="periodical font-italic">
             
-              In Proceedings of the Workshop on Multilingual Information Access (MIA) @ NAACL 
+            In DialDoc @ ACL 
             
-            
-              2022.
+            2022.
             
           </p>
         </div>
   
         <div class="col p-0">
           
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#crosslingual-abstract" role="button" aria-expanded="false" aria-controls="joshi2021dialograph-abstract">Abstract</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#dialdoc-abstract" role="button" aria-expanded="false" aria-controls="joshi2021dialograph-abstract">Abstract</a>
         
-          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/MIA_CMUmQA.pdf" target="_blank">PDF</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/R3.pdf" target="_blank">PDF</a>
       
       </div>
   
       <div class="col mt-2 p-0">
-        <div id="crosslingual-abstract" class="collapse">
+        <div id="dialdoc-abstract" class="collapse">
           <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-            People speaking different kinds of languages search for information in a cross-lingual manner. They tend to ask questions in their language and expect the answer to be in the same language, despite the evidence lying in another language. In this paper, we present our approach for this task of cross-lingual open-domain question-answering. Our proposed method employs a passage reranker, the fusion-in-decoder technique for generation, and a wiki data entity-based post-processing system to tackle the inability to generate entities across all languages. Our end-2-end pipeline shows an improvement of 3 and 4.6 points on F1 and EM metrics respectively, when compared with the baseline CORA model on the XOR-TyDi dataset. We also evaluate the effectiveness of our proposed techniques in the zero-shot setting using the MKQA dataset and show an improvement of 5 points in F1 for high-resource and 3 points improvement for low-resource zero-shot languages. Our team, CMUmQA’s submission in the MIA-Shared task ranked 1st in the constrained setup for the dev and 2nd in the test setting.      </div>
+            In this paper, we present our submission to the DialDoc shared task based on the MultiDoc2Dial dataset. MultiDoc2Dial is a conversational question answering dataset that grounds dialogues in multiple documents. The task involves grounding a user’s query in a document followed by generating an appropriate response. We propose several improvements over the baseline’s retriever-reader architecture to aid in modeling goal-oriented dialogues grounded in multiple documents. Our proposed approach employs sparse representations for passage retrieval, a passage re-ranker, the fusion-in-decoder architecture for generation, and a curriculum learning training paradigm. Our approach shows a 12 points improvement in BLEU score compared to the baseline RAG model.          </div>
+           </div>
       </div>
     </div>
   
